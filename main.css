@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    display: flex;
+    margin: 0 70px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.side-1{
+    flex-basis: 25%;
+    height: 100%;
+    box-sizing: border-box;
+    
+}
+
+.top-box-1{
+ width: 100%;
+ height: 60px;
+ position: relative;
+ background-color: rgb(4, 241, 75);
+ 
+}
+
+.top-box-3{
+    width: 100%;
+    height: 75vmax;
+    background-color: rgb(4, 241, 75);
+    padding: 10px;
+    box-sizing: border-box;
+    
+   }
+
+
+   .top-box-3 h3{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    
+   }
+   .top-box-3 h4{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    
+   }
+   .top-box-3 h5{
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 3px;
+
+    
+   }
+
+
+.top-box-2{
+    width: 100%;
+    height: 65px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(153, 248, 232);
+    z-index: -1;
+
+   }
+#name{
+    margin-top: 10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    height: 50px;
+}
+.top-box-empty{
+    
+    width: 100%;
+    height: 65px;
+    
+}
+
+.side-2{
+    flex-basis: 65%;
+    height: 100%;
+    margin-left: 15px;
+    box-sizing: border-box;
+}
+.side-2 h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.empty2{
+    margin-top: 5px;
+    height: 50px;
+    width: 100%;
+}
+.side-1 img{
+    width: 100%;
+}
+#profile{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 35px;
+    font-size: 20px;
+}
+table td{
+    width: 50%;
+    font-size: 23px;
+    font-weight: bolder;
+    flex: 1;
+}
+#coloured{
+    font-weight: bold;
+    color: limegreen;
+    font-size: 19px;
+}
+thead{
+    height: 40px;
+    text-align: start;
+}
+h2{
+    margin-top: 20px;
+    font-size: 22px;
+
+}
+li{
+    margin-left: 50px;
+    font-size: 20px;
+    padding: 5px 0;
+}
+.skills{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+}
+table{
+    width: 700px;
+}
